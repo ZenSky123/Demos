@@ -5,3 +5,5 @@
 ## web
 - django
     - mysite 根据django官方教程编写的一个最简单的投票应用
+- socket
+    - TCPSimplest1 socket最简单应用，服务器接受一个字符串加上时间戳返回给客户端
