@@ -6,11 +6,12 @@
 - django
     - mysite 根据django官方教程编写的一个最简单的投票应用
 - socket
-    - TCPSimplest1 socket最简单应用，服务器接受一个字符串加上时间戳返回给客户端
-    - UDPSimplest1 socket最简单应用，服务器接受一个字符串加上时间戳返回给客户端
-    - SocketServerSimplest1 socketserver最简单应用，服务器接受一个字符串加上时间戳返回给客户端
+    - TCPSimplest socket最简单应用，服务器接受一个字符串加上时间戳返回给客户端
+    - UDPSimplest socket最简单应用，服务器接受一个字符串加上时间戳返回给客户端
+    - SocketServerSimplest socketserver最简单应用，服务器接受一个字符串加上时间戳返回给客户端
     
 ## performance
 - multithread
     - mtSimplestWithFunc 使用原生Thread类进行多线程编程
     - mtSimplestWithClass 继承Thread类进行多线程编程
+    - mtLockSimplest 同步原语-锁的最简单的例子（去除锁之后上下输出可能乱序，请读者自己尝试）
