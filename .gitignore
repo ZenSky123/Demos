@@ -1,3 +1,6 @@
+*.iml
+*.xml
+.idea/*
 *.py[cod]
 *.so
 *.egg
