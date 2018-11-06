@@ -27,13 +27,13 @@ def buy():
 
 
 def producer(loops):
-    for i in range(loops):
+    for _ in range(loops):
         refill()
         sleep(randint(0, 3))
 
 
 def consumer(loops):
-    for i in range(loops):
+    for _ in range(loops):
         buy()
         sleep(randint(0, 3))
 

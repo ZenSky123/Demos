@@ -16,3 +16,4 @@
     - mtSimplestWithClass 继承Thread类进行多线程编程
     - mtLockSimplest 同步原语-锁的最简单的例子（去除锁之后上下输出可能乱序，请读者自己尝试）
     - mtSemaphoreSimplest 同步原语-信号量最简单的例子
+    - mtQueueSimplest 使用队列模拟生产者-消费者模型
