@@ -9,3 +9,8 @@
     - TCPSimplest1 socket最简单应用，服务器接受一个字符串加上时间戳返回给客户端
     - UDPSimplest1 socket最简单应用，服务器接受一个字符串加上时间戳返回给客户端
     - SocketServerSimplest1 socketserver最简单应用，服务器接受一个字符串加上时间戳返回给客户端
+    
+## performance
+- multithread
+    - mtSimplestWithFunc 使用原生Thread类进行多线程编程
+    - mtSimplestWithClass 继承Thread类进行多线程编程
