@@ -9,7 +9,10 @@
     - TCPSimplest socket最简单应用，服务器接受一个字符串加上时间戳返回给客户端
     - UDPSimplest socket最简单应用，服务器接受一个字符串加上时间戳返回给客户端
     - SocketServerSimplest socketserver最简单应用，服务器接受一个字符串加上时间戳返回给客户端
-    
+- WSGI
+    - WSGISimplest 最简单的WSGI应用
+    - WSGIWithMiddleware 增加一个中间件函数来扩展WSGI应用
+    - WSGIWithMiddlewareClass 增加一个中间件类来扩展WSGI应用
 ## performance
 - multithread
     - mtSimplestWithFunc 使用原生Thread类进行多线程编程
