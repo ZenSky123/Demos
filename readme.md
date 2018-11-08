@@ -5,6 +5,7 @@
 ## web
 - django
     - mysite 根据django官方教程编写的一个最简单的投票应用
+    - tutorial 根据django-rest-framework中的教程节走完的代码
 - socket
     - TCPSimplest socket最简单应用，服务器接受一个字符串加上时间戳返回给客户端
     - UDPSimplest socket最简单应用，服务器接受一个字符串加上时间戳返回给客户端
@@ -13,6 +14,7 @@
     - WSGISimplest 最简单的WSGI应用
     - WSGIWithMiddleware 增加一个中间件函数来扩展WSGI应用
     - WSGIWithMiddlewareClass 增加一个中间件类来扩展WSGI应用
+    
 ## performance
 - multithread
     - mtSimplestWithFunc 使用原生Thread类进行多线程编程
