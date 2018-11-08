@@ -1,5 +1,7 @@
-里面包含两个App
+里面包含多个App
 
 - quickstart
-    - django-reset-framework中的quickstart章节所有的代码
+    - django-rest-framework中的quickstart章节所有的代码
+- snippets
+    - django-rest-framework中的serialization章节所有的代码
     
