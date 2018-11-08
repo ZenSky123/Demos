@@ -1,18 +1,10 @@
 from django.conf.urls import url, include
 
-# from quickstart import views
+from rest_framework_swagger.views import get_swagger_view
 
-
-# router = routers.DefaultRouter()
-# router.register(r'users', views.UserViewSet)
-# router.register(r'groups', views.GroupViewSet)
-
-# urlpatterns = [
-#     path('admin/', admin.site.urls),
-# ]
-from snippets import views
-
+schema_view = get_swagger_view(title='Pastebin API')
 urlpatterns = [
     # url(r'^', include(router.urls)),
     url(r'^', include('snippets.urls')),
+    url(r'^apis', schema_view)
 ]
