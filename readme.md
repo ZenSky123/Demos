@@ -27,3 +27,4 @@
 - builtin
     - bisect_demo 使用bisect的一些demo
     - inspect_demo 使用inspect的一些demo
+    - format_demo 使用format的一些demo
