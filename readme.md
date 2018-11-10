@@ -25,6 +25,14 @@
 - coroutine
     - coroutineHard 较难的协程使用
     - coroutineSimplest 简单的协程使用
+- concurrency
+    - SpiderInOrder 单线程顺序爬虫
+    - SpiderWithAsyncio 使用Asyncio库完成爬虫
+    - SpiderWithAsyncioExecutor 异步保存文件优化
+    - SpiderWithAsyncioSemaphore 限制请求数量
+    - SpiderWithFuture 使用Future完成爬虫
+    - SpiderWithFutureV2 使用Future完成爬虫的版本二
+    - util 爬虫需要用到的一些公用函数
 
 ## hack
 - builtin
