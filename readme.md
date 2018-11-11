@@ -44,3 +44,7 @@
     - inspect_demo 使用inspect的一些demo
     - format_demo 使用format的一些demo
     - iter 迭代器的相关一些demo
+- class
+    - UglyStateMachine 丑陋的实现状态机的方案
+    - ElegantStateMachine 优雅的实现状态机的方案
+    - PerfectStateMachine 我最喜欢的实现状态机的方案
