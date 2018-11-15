@@ -6,6 +6,8 @@
 - django
     - mysite 根据django官方教程编写的一个最简单的投票应用
     - tutorial 根据django-rest-framework中的教程节走完的代码
+- RPC
+    - XML_RPC 使用xmlrpc实现简单的RPC
 - socket
     - TCPSimplest socket最简单应用，服务器接受一个字符串加上时间戳返回给客户端
     - UDPSimplest socket最简单应用，服务器接受一个字符串加上时间戳返回给客户端
