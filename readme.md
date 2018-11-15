@@ -8,6 +8,7 @@
     - tutorial 根据django-rest-framework中的教程节走完的代码
 - RPC
     - XML_RPC 使用xmlrpc实现简单的RPC
+    - ListenerRPC 使用multiprocessing的conection库来完成RPC 
 - socket
     - TCPSimplest socket最简单应用，服务器接受一个字符串加上时间戳返回给客户端
     - UDPSimplest socket最简单应用，服务器接受一个字符串加上时间戳返回给客户端
