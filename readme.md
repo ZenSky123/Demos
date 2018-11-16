@@ -44,7 +44,8 @@
     - server
         - charfinder server要用到的一些函数
         - ServerWithAsyncio 使用Asyncio构建的一个服务器（要使用telnet测试）
-
+    - ActorSimplest 同步的生成器Actor
+    - AsyncActorSimplest 异步Actor
 ## hack
 - builtin
     - bisect_demo 使用bisect的一些demo
